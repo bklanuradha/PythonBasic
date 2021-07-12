@@ -3,9 +3,10 @@ x = 5
 y = 2
 
 # calculate
-x -= 3
-y += 3
+z = x
+x = y
+y = z
 
 # outputs
-print("x:", x)
-print("y:", y)
+print('The value of x after swapping:{}'.format(x))
+print('The value of y after swapping:{}'.format(y))
